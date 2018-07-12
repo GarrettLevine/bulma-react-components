@@ -1,9 +1,7 @@
 import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
 import '@storybook/addon-console';
-// import './normalize.scss';
-// import './default.scss';
-// import '../src/main.scss';
+import '../src/main.scss';
 
 const req = require.context('../src', true, /\.story\.js$/);
 
